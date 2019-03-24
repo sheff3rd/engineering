@@ -1,25 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Setting Up
 
-Things you may want to cover:
+```sh
+  rake db:create
+  rake db:migrate
+  rake db:seed
+```
 
-* Ruby version
+# ER-Diagram
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# engineering
+![ER-Diagram](./public/er-diagram.png)
